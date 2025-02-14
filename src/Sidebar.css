@@ -1,0 +1,79 @@
+.sidebar{
+    flex: 0.2;
+    min-width: 230px;
+    padding: 0 10px;
+    background-color: #040404;
+    color: white;
+    height: 100vh;
+    overflow-y: overlay;
+}
+
+.sidebar__logo{
+    height: 70px;
+    padding: 10px;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+.sidebar__title{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.sidebar__hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.sidebar__playlists {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar__playlists::-webkit-scrollbar {
+    display: none;
+}
+
+/* Add smooth scrolling and hide scrollbar */
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Add these new styles for the glass effect */
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sidebarOption:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarOption__icon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebarOption p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}

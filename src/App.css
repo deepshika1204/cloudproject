@@ -1,0 +1,29 @@
+.app {
+  height: 100vh;
+}
+
+.app__body {
+  display: flex;
+  height: calc(100vh - 90px); /* Adjust this value based on your footer height */
+  overflow: hidden;
+}
+
+.app__main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.app__body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.app__body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+

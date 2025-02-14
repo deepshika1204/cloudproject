@@ -1,0 +1,11 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.player__body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}

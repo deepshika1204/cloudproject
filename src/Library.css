@@ -1,0 +1,48 @@
+.library {
+  padding: 30px;
+  flex: 0.8;
+  height: 100vh;
+  color: white;
+  overflow-y: overlay;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: rgb(91, 87, 115);
+}
+
+.library h2 {
+  margin-bottom: 20px;
+}
+
+.library__playlists {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.library__playlist {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.library__playlist:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.library__playlist img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.library__playlistInfo h4 {
+  margin-bottom: 5px;
+}
+
+.library__playlistInfo p {
+  font-size: 14px;
+  color: #b3b3b3;
+}

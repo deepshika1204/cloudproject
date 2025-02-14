@@ -1,0 +1,28 @@
+.search {
+  flex: 0.8;
+  padding: 30px;
+  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+  height: 100vh;
+  color: white;
+  overflow-y: overlay;
+}
+
+.search__input {
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  color: gray;
+  padding: 10px;
+}
+
+.search__input > input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 30px;
+}
+
+.search__results {
+  margin-top: 20px;
+}

@@ -1,0 +1,17 @@
+.search-results {
+  padding: 30px;
+  flex: 0.8;
+  height: 100vh;
+  color: white;
+  overflow-y: overlay;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: rgb(91, 87, 115);
+}
+
+.search-results h2 {
+  margin-bottom: 20px;
+}
+
+.search-results__songs {
+  margin: 20px -30px;
+}
